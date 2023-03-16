@@ -20,34 +20,34 @@
 <h3>Come funziona un computer?</h3>
 <p>Un computer immagazzina informazioni tramite transistor.</p>
 <p>Un transistor è una componente dell'elettronica in grado di controllare il livello della tensione in&nbsp; uscita, tra due valori possibili: alto e basso, che si possono far corrispondere a qualsiasi coppia di simbolii, ma è di particolare interesse la
-    coppia \( (1;0) \).</p>
+    coppia $(1;0)$.</p>
 <p>Questo non è l'unico modo di immagazzinare informazione: un DVD lo fa annerendo più o meno delle regioni della sua superficie o un nastro magnetico mediante magnetizzazione diversa della sua superficie.</p>
 <h3>Perché l'elettronica?</h3>
 <p>Un sistema elettronico è molto più veloce e durevole di qualsiasi sistema elettromeccanico.</p>
 <p>L'ingegneria elettronica ci dà un sistema fisico (computer) con molti elementi in grado di assumere degli stati binari.</p>
-<p>Ogni elemento può assumere \( 2 \) stati, quindi \( n \) elementi possono assumere \( 2^n \) stati. Un computer moderno ha un \( n \) che si aggira intorno ai milioni di miliardi.</p>
+<p>Ogni elemento può assumere $2$ stati, quindi $n$ elementi possono assumere $2^n$ stati. Un computer moderno ha un $n$ che si aggira intorno ai milioni di miliardi.</p>
 <p>La quantità di informazione data dallo stato di un elemento corrisponde a un <strong>bit</strong>. 8 bit, cioè l'informazione data da 8 elementi, sono <strong>1 Byte</strong>.</p>
-<p>I multipli del bit sono Kb (kilo-bit, \( 10^3 \) bit), Mb (mega-bit, \( 10^6 \) bit), Gb (giga-bit, \( 10^9 \) bit), Tb (tera-bit, \( 10^{12} \) bit), Pb (peta-bit, \( 10^{15} \) bit).</p>
-<p>I multipli del Byte sono KB (kilo-byte, \( 10^3 \) byte), MB (mega-byte, \( 10^6 \) byte), GB (giga-byte, \( 10^9 \) byte), TB&nbsp;(tera-byte, \( 10^{12}) \) byte), PB&nbsp;(peta-byte, \( 10^{15} \) byte).</p>
-<p>Inizialmente si dava a questi prefissi un significato binario, ossia si andava alla potenza di \( 2 \) più vicina, ad esempio Kilo significava \( 2^{10}=1024 \). Questo creava naturalmente confusione.</p>
-<p>Il problema è stato risolto introducendo i prefissi Ki (kibi, binary kilo, \( 2^{10} \)), Mi (mibi, binary mega, \( 2^{20} \)), Gi (gibi, binary giga, \( 2^{30} \)), etc., mentre i prefissi del S.I. hanno riacquistato il loro significato originale.</p>
+<p>I multipli del bit sono Kb (kilo-bit, $10^3$ bit), Mb (mega-bit, $10^6$ bit), Gb (giga-bit, $10^9$ bit), Tb (tera-bit, $10^{12}$ bit), Pb (peta-bit, $10^{15}$ bit).</p>
+<p>I multipli del Byte sono KB (kilo-byte, $10^3$ byte), MB (mega-byte, $10^6$ byte), GB (giga-byte, $10^9$ byte), TB&nbsp;(tera-byte, $10^{12})$ byte), PB&nbsp;(peta-byte, $10^{15}$ byte).</p>
+<p>Inizialmente si dava a questi prefissi un significato binario, ossia si andava alla potenza di $2$ più vicina, ad esempio Kilo significava $2^{10}=1024$. Questo creava naturalmente confusione.</p>
+<p>Il problema è stato risolto introducendo i prefissi Ki (kibi, binary kilo, $2^{10}$), Mi (mibi, binary mega, $2^{20}$), Gi (gibi, binary giga, $2^{30}$), etc., mentre i prefissi del S.I. hanno riacquistato il loro significato originale.</p>
 <h3>Rappresentazione dei numeri</h3>
-<p>La <strong>base 2 (binaria)</strong>&nbsp;è chiaramente la scelta di base naturale se vogliamo rappresentare un numero intero su un sistema di dispositivi fisici (transistor) che possono trovarsi esclusivamente in due stati \( (1;0) \).</p>
-<p>\( 237 \) è un numero che sottintendiamo essere in base \( 10\). Si indica esplicitamente con \( 237_{10} \) e significa che si può scrivere \( 237=2\cdot10^2+3\cdot10^1+7\cdot10^0 \).</p>
+<p>La <strong>base 2 (binaria)</strong>&nbsp;è chiaramente la scelta di base naturale se vogliamo rappresentare un numero intero su un sistema di dispositivi fisici (transistor) che possono trovarsi esclusivamente in due stati $(1;0)$.</p>
+<p>$237$ è un numero che sottintendiamo essere in base $10$. Si indica esplicitamente con $237_{10}$ e significa che si può scrivere $237=2\cdot10^2+3\cdot10^1+7\cdot10^0$.</p>
 <p>Nota: gli interi sul computer non sono gli interi di Peano. Sul computer esiste un massimo intero rappresentabile.</p>
 <p>Notare l'importanza dello zero per la fattibilità di questa rappresentazione.</p>
 <p>La base 10 non è l'unica possibile, ma è la più naturale per il fatto che abbiamo 10 dita. I Babilonesi probabilmente usavano la base 60.</p>
 <p>Un'altra base molto utilizzata in ambito informatico è la <strong>base 16 (esadecimale)</strong>. Per rappresentare un intero in questa base, abbiamo bisogno di 16 cifre diverse (così come per la rappresentazione in base 10 necessitiamo di 10 cifre).
-    Convenzionalmente, si scelgono le cifre \( 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F \). Questa base si rivela particolarmente comoda poiché 16 è una potenza di 2. Infatti, si ha che ogni "blocco" di quattro cifre in base 2 è rappresentabile univocamente come
+    Convenzionalmente, si scelgono le cifre $0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F$. Questa base si rivela particolarmente comoda poiché 16 è una potenza di 2. Infatti, si ha che ogni "blocco" di quattro cifre in base 2 è rappresentabile univocamente come
     un'unica cifra in base 16.</p>
 <h4>Esempi</h4>
-<p>\( 211_3 \to 2\cdot 3^2 +1\cdot 3^1 + 1\cdot 3^0 \)</p>
-<p>\( 101_2 \to 1\cdot 2^2 +0\cdot 2^1 + 1\cdot 2^0 = 5_{10} \)</p>
-<p>Per scrivere \(37_{10}\) in base \( 2\) posso costruire una tabella di potenze di \(2\) e scriverlo come somme di tali potenze:</p>
+<p>$211_3 \to 2\cdot 3^2 +1\cdot 3^1 + 1\cdot 3^0$</p>
+<p>$101_2 \to 1\cdot 2^2 +0\cdot 2^1 + 1\cdot 2^0 = 5_{10}$</p>
+<p>Per scrivere $37_{10}$ in base $2$ posso costruire una tabella di potenze di $2$ e scriverlo come somme di tali potenze:</p>
 <table>
     <tbody>
         <tr>
-            <th scope="row">\(n\)</th>
+            <th scope="row">$n$</th>
             <td>0</td>
             <td>1</td>
             <td>2</td>
@@ -61,7 +61,7 @@
             <td>10</td>
         </tr>
         <tr>
-            <th scope="row">\(2^n\)</th>
+            <th scope="row">$2^n$</th>
             <td>1</td>
             <td>2</td>
             <td>4</td>
@@ -76,7 +76,7 @@
         </tr>
     </tbody>
 </table>
-<p>Osservo che \(37=32+5=32+4+1=100101_2\) <br><br></p>
+<p>Osservo che $37=32+5=32+4+1=100101_2$ <br><br></p>
 <p>Un altro modo, più algoritmico e applicabile più facilmente anche nel caso di numeri più grandi, è come segue:</p>
 <table>
     <tbody>
@@ -114,7 +114,7 @@
         </tr>
     </tbody>
 </table>
-<p>Trascrivendo dal basso in alto ottengo \(37_{10}=100101_{2}\)</p>
+<p>Trascrivendo dal basso in alto ottengo $37_{10}=100101_{2}$</p>
 <p>La base 16 risulta anche molto utile, specie in informatica: la conversione tra "binario" ed "esadecimale" è particolarmente semplice e rende più compatta e leggibile la notazione numerica:</p>
 <table>
     <tbody>
@@ -539,7 +539,7 @@ print*, a b</pre>
     del programma ("sul momento"). Per l'allocazione statica bisogna specificare subito nel codice quanti elementi ci sono nell'array. Si può arrivare a un numero massimo di 15 indici per lo standard (alcuni compilatori Intel arrivano anche a 30) ma il
     numero di componenti su ciascuno di essi dipende da quanta memoria si ha a disposizione.</p>
 <p>Attenzione: uno stesso array <span style="text-decoration:underline;">non</span> può essere contemporaneamente ad allocazione statica e dinamica.</p>
-<p>Normalmente gli indici di un array con \(N\) elementi partono da \(1\) e arrivano fino a \(N\), ma si può fare anche diversamente. Si dichiarano come:</p>
+<p>Normalmente gli indici di un array con $N$ elementi partono da $1$ e arrivano fino a $N$, ma si può fare anche diversamente. Si dichiarano come:</p>
 <pre>integer, dimension(3)      :: p,q        !array di 3 interi indiciato da 1 a 3
 integer, dimension(0:2)    :: p1,q1      !array di 3 interi indiciato da 0 a 2
 integer, dimension(3,3)    :: X          !matrice 3x3 a entrate intere indiciata da (1,1) a (3,3)
@@ -557,7 +557,7 @@ read*,p(3)
 print*,p(1),p(2),p(3)
 
 do i = 1,3000
-    print*, p(i)    ! Questo darà un errore: sto cercando valori di p per indici troppo grandi! 
+    print*, p(i)    ! Questo darà un errore: sto cercando valori di p per indici troppo grandi!
                     ! tuttavia il compilatore non protesterà
 end do
 </pre>
@@ -744,9 +744,9 @@ end function norma2
 <p style="text-align:left;">Le variabili locali sono variabili introdotte nel sottoprogramma e completamente separate dal programma principale. Se a esse attribuisco un valore, non è detto che questo venga mantenuto a ciascuna chiamata del sottoprogramma. Affinché ciò non accada,
     si usa l'attributo <b>save</b> che, in realtà viene inserito automaticamente dal compilatore Fortran al momento di dichiarazione della variabile, ma che potrebbe dover essere scritto manualmente in altre situazioni.</p>
 <h3>Algoritmi ricorsivi</h3>
-<p>Un algoritmo ricorsivo è un algoritmo che si riconduce a se stesso. Un tipico esempio è il fattoriale, che ha una definizione <strong>iterativa</strong> come \( \displaystyle n!=\prod_{i=1}^ni \) e una <strong>ricorsiva</strong>, come \( n! = \begin{cases}n\cdot
-    (n-1)!&amp;n\neq 0\\1&amp;n=0.\end{cases} \) Notare che un algoritmo non può fare indefinitamente riferimento a se stesso, ossia avvalersi esclusivamente della chiamata ricorsiva: bisogna uscire dalla ricorsione, ed essere sicuri che questa uscita
-    verrà raggiunta. Nel caso del fattoriale, la condizione (esplicita) di uscita si ottiene per \( n=0.\) </p>
+<p>Un algoritmo ricorsivo è un algoritmo che si riconduce a se stesso. Un tipico esempio è il fattoriale, che ha una definizione <strong>iterativa</strong> come $\displaystyle n!=\prod_{i=1}^ni$ e una <strong>ricorsiva</strong>, come $n! = \begin{cases}n\cdot
+    (n-1)!&amp;n\neq 0\\1&amp;n=0.\end{cases}$ Notare che un algoritmo non può fare indefinitamente riferimento a se stesso, ossia avvalersi esclusivamente della chiamata ricorsiva: bisogna uscire dalla ricorsione, ed essere sicuri che questa uscita
+    verrà raggiunta. Nel caso del fattoriale, la condizione (esplicita) di uscita si ottiene per $n=0.$ </p>
 <p>In Fortran, il fatto che la funzione sia ricorsiva va esplicitato. Una funzione ricorsiva avrà una struttura di questo tipo:</p>
 <pre>recursive function nome(...) result(...)
     ...
@@ -757,7 +757,7 @@ end function</pre>
     (più la chiamata originale). Un algoritmo ricorsivo può così diventare rapidamente inefficiente dal punto di vista della gestione della memoria. Tuttavia questi possono essere ottimali per alcune operazioni, ad esempio per visitare tutti i nodi di
     una struttura ad albero.</p>
 <p>Da non dimenticare che per avere significato, una function deve contenere almeno un'istruzione.</p>
-<p>Oltre al fattoriale, anche la successione di Fibonacci si presta bene ad un'implementazione ricorsiva: \( a_{n+2}=a_{n+1}+a_n \), ma tale implementazione sdoppia i calcoli e risulta molto inefficiente, sia a livello di tempo che di memoria. Infatti, si
+<p>Oltre al fattoriale, anche la successione di Fibonacci si presta bene ad un'implementazione ricorsiva: $a_{n+2}=a_{n+1}+a_n$, ma tale implementazione sdoppia i calcoli e risulta molto inefficiente, sia a livello di tempo che di memoria. Infatti, si
     vengono a formare due <b>cascate di ricorsione</b>, con il risultato di aver duplicato un processo che già di base può potenzialmente occupare molta memoria.</p>
 <h3>Funzioni pure ed elementali</h3>
 <p>Una funzione è <strong>pura</strong> se l'unica cosa che fa è prendere degli input e dare un risultato. In altre parole:
@@ -1087,26 +1087,26 @@ close(4)
             <h4>Differenze principali con i sistemi numerici matematici</h4>
             <p>Alcuni numeri che in base 10 sono rappresentati con un numero finito di cifre diventano periodici in base 2. Inoltre l'insieme dei numeri che possiamo rappresentare è limitato e non denso. Peraltro, i numeri non sono neanche uniformemente
                 distribuiti.</p>
-            <p>Un'altra conseguenza dell'avere una precisione limitata è che non vale più l'unicità dell'elemento neutro. ad es. \( 1.34 \cdot 10^2 + 1.21 \cdot 10^{-4} = 1.3400121 \cdot 10^2. \) Se ho disponibilità di solo 2 cifre, il secondo addendo è
-                un numero \( \neq 0 \) che sommato al primo restituisce il primo numero invariato: è simile a un elemento neutro.</p>
+            <p>Un'altra conseguenza dell'avere una precisione limitata è che non vale più l'unicità dell'elemento neutro. ad es. $1.34 \cdot 10^2 + 1.21 \cdot 10^{-4} = 1.3400121 \cdot 10^2.$ Se ho disponibilità di solo 2 cifre, il secondo addendo è
+                un numero $\neq 0$ che sommato al primo restituisce il primo numero invariato: è simile a un elemento neutro.</p>
             <p>A causa dell'effetto appena menzionato, la proprietà associativa smette di valere:</p>
-            <p>\( (A + B)+C=A+(B+C) \)</p>
-            <p>con \( A=1.34, B=0.0041,C=0.0041 \) e precisione di due cifre dopo la virgola, non vale:</p>
-            <p>\( (1.34+0.0041)+0.0041=1.34+0.0041=1.34; \)</p>
-            <p>\( 1.34 + (0.0041+0.0041)=1.34 + 0.0081 (=1.3481)=1.35 \)</p>
-            <p>Per tener traccia di questa imprecisione c'è un parametro, detto <strong>precisione macchina</strong> \( \varepsilon_M \), che indica la precisione relativa, cioè sulla mantissa (a parità di esponente). \(\varepsilon_M\) è il più piccolo valore
-                che tale che \( 1+\varepsilon_M &gt; 1 \). L'unità di arrotondamento è l'ampiezza dell'intervallo (sulla mantissa) di tutti i numeri che vengono espressi con la stessa sequenza di bit, ossia la differenza tra la più grande e la più piccola
+            <p>$(A + B)+C=A+(B+C)$</p>
+            <p>con $A=1.34, B=0.0041,C=0.0041$ e precisione di due cifre dopo la virgola, non vale:</p>
+            <p>$(1.34+0.0041)+0.0041=1.34+0.0041=1.34;$</p>
+            <p>$1.34 + (0.0041+0.0041)=1.34 + 0.0081 (=1.3481)=1.35$</p>
+            <p>Per tener traccia di questa imprecisione c'è un parametro, detto <strong>precisione macchina</strong> $\varepsilon_M$, che indica la precisione relativa, cioè sulla mantissa (a parità di esponente). $\varepsilon_M$ è il più piccolo valore
+                che tale che $1+\varepsilon_M &gt; 1$. L'unità di arrotondamento è l'ampiezza dell'intervallo (sulla mantissa) di tutti i numeri che vengono espressi con la stessa sequenza di bit, ossia la differenza tra la più grande e la più piccola
                 mantissa reale che ricevono la stessa mantissa nel computer. <strong>Importante!</strong> Questi valori indicano una precisione relativa, cioè sempre a parità di esponente e senza considerare l'esponente. Altrimenti l'unità di arrotondamento
                 diventerebbe tanto più grande quanto più grandi diventano gli esponenti dei numeri che salviamo.</p>
-            <p>Se \(x_v\) è il valore vero, un approssimante \(x\) ha \(p\) cifre significative esatte se \( \frac{|x-x_v|}{|x_v|}&lt;0.5\cdot 10^p \)</p>
+            <p>Se $x_v$ è il valore vero, un approssimante $x$ ha $p$ cifre significative esatte se $\frac{|x-x_v|}{|x_v|}&lt;0.5\cdot 10^p$</p>
             <table style="text-align:center;" border="1" cellspacing="0" cellpadding="0">
                 <caption>&nbsp;</caption>
                 <thead>
                     <tr>
                         <th scope="col">Bit</th>
                         <th scope="col">Bit significativi</th>
-                        <th scope="col">\( (\varepsilon_M)_2 \)</th>
-                        <th scope="col">\( (\varepsilon_M)_{10} \)</th>
+                        <th scope="col">$(\varepsilon_M)_2$</th>
+                        <th scope="col">$(\varepsilon_M)_{10}$</th>
                         <th scope="col">Cifre significative esatte</th>
                     </tr>
                 </thead>
@@ -1114,47 +1114,47 @@ close(4)
                     <tr>
                         <td>32</td>
                         <td>24</td>
-                        <td>\(2^{-24}\)</td>
-                        <td>\(0.596\cdot10^{-8}\approx10^{-7}\)</td>
+                        <td>$2^{-24}$</td>
+                        <td>$0.596\cdot10^{-8}\approx10^{-7}$</td>
                         <td>6</td>
                     </tr>
                     <tr>
                         <td>64</td>
                         <td>53</td>
-                        <td>\(2^{-53}\)</td>
-                        <td>\(1.11\cdot10^{-16}\approx10^{-16}\)</td>
+                        <td>$2^{-53}$</td>
+                        <td>$1.11\cdot10^{-16}\approx10^{-16}$</td>
                         <td>15</td>
                     </tr>
                     <tr>
                         <td>80</td>
                         <td>64</td>
-                        <td>\(2^{-64}\)</td>
-                        <td>\(0.542\cdot10^{-20}\approx10^{-19}\)</td>
+                        <td>$2^{-64}$</td>
+                        <td>$0.542\cdot10^{-20}\approx10^{-19}$</td>
                         <td>18</td>
                     </tr>
                     <tr>
                         <td>128</td>
                         <td>113</td>
-                        <td>\(2^{-113}\)</td>
-                        <td>\(0.962\cdot10^{-34}\approx10^{-34}\)</td>
+                        <td>$2^{-113}$</td>
+                        <td>$0.962\cdot10^{-34}\approx10^{-34}$</td>
                         <td>33</td>
                     </tr>
                 </tbody>
             </table>
-            <p>Ad esempio, se faccio stampare a Fortran il numero \(0.1\), quello che vedo è la migliore approssimazione della conversione del numero in forma binaria. In generale \( x_c=x_v(1+\varepsilon_x) \), con \( |\varepsilon_x|&lt;\varepsilon_M \).</p>
-            <p>Consideriamo ora anche \(&nbsp; y_c=y_v(1+\varepsilon_y) \) e \( x_c\cdot y_c=x_v(1+\varepsilon_x)y_v(1+\varepsilon_v)=x_vy_v(1+\varepsilon_x+\varepsilon_y+\varepsilon_x\varepsilon_y) \approx&nbsp;x_vy_v(1+\varepsilon_x+\varepsilon_y) \leq
-                x_vy_v(1+2\varepsilon_M) \)</p>
-            <p>Analogamente \( \frac {x_c}{y_c}=\frac {x_v}{y_v}\cdot\frac{1+\varepsilon_x}{1+\varepsilon_y}\approx\left(\frac {x_v}{y_v}\right)(1+\varepsilon_x)(1-\varepsilon_y)\approx\left(\frac {x_v}{y_v}\right)(1+\varepsilon_x-\varepsilon_y)\leq\left(\frac
-                {x_v}{y_v}\right)(1+2\varepsilon_M) \)</p>
+            <p>Ad esempio, se faccio stampare a Fortran il numero $0.1$, quello che vedo è la migliore approssimazione della conversione del numero in forma binaria. In generale $x_c=x_v(1+\varepsilon_x)$, con $|\varepsilon_x|&lt;\varepsilon_M$.</p>
+            <p>Consideriamo ora anche $&nbsp; y_c=y_v(1+\varepsilon_y)$ e $x_c\cdot y_c=x_v(1+\varepsilon_x)y_v(1+\varepsilon_v)=x_vy_v(1+\varepsilon_x+\varepsilon_y+\varepsilon_x\varepsilon_y) \approx&nbsp;x_vy_v(1+\varepsilon_x+\varepsilon_y) \leq
+                x_vy_v(1+2\varepsilon_M)$</p>
+            <p>Analogamente $\frac {x_c}{y_c}=\frac {x_v}{y_v}\cdot\frac{1+\varepsilon_x}{1+\varepsilon_y}\approx\left(\frac {x_v}{y_v}\right)(1+\varepsilon_x)(1-\varepsilon_y)\approx\left(\frac {x_v}{y_v}\right)(1+\varepsilon_x-\varepsilon_y)\leq\left(\frac
+                {x_v}{y_v}\right)(1+2\varepsilon_M)$</p>
             <p>DA AGGIUNGERE!! Cancellazioni sottrattive ed errori sulle somme</p>
             <h3>Come evitare cancellazioni sottrattive?</h3>
-            <p>Si può riformulare il problema in modo equivalente dal punto di vista matematico, ma in modo che non ci siano errori di cancellazione: se si vuole calcolare \( e^{-x} = \sum_{n=0}^\infty (-1)^n\frac{x^n}{n!} \) per valori grandi di \(x \)
-                si rischia di andare incontro ad errori di cancellazione man mano che si va avanti con le somme. Una soluzione è calcolare prima \( e^x \) e successivamente \( e^{-x}=1/e^x \). Il vantaggio è che la serie di Taylor per \(e^x \) non è a
-                segni alterni, quindi non soffre di cancellazioni sottrattive. Un altro esempio è il calcolo delle soluzioni di un'equazione di secondo grado con \( b&gt;0 \): \( x_\pm = \frac{-b\pm\sqrt{b^2-4ac}}{2a} \) potrebbe avere cancellazioni sottrattive
-                al numeratore della soluzione con il segno \( + \). La formula equivalente \( x_+=\frac{2c}{-b-\sqrt{b^2-4ac}}\) non presenta questo problema.</p>
+            <p>Si può riformulare il problema in modo equivalente dal punto di vista matematico, ma in modo che non ci siano errori di cancellazione: se si vuole calcolare $e^{-x} = \sum_{n=0}^\infty (-1)^n\frac{x^n}{n!}$ per valori grandi di $x$
+                si rischia di andare incontro ad errori di cancellazione man mano che si va avanti con le somme. Una soluzione è calcolare prima $e^x$ e successivamente $e^{-x}=1/e^x$. Il vantaggio è che la serie di Taylor per $e^x$ non è a
+                segni alterni, quindi non soffre di cancellazioni sottrattive. Un altro esempio è il calcolo delle soluzioni di un'equazione di secondo grado con $b&gt;0$: $x_\pm = \frac{-b\pm\sqrt{b^2-4ac}}{2a}$ potrebbe avere cancellazioni sottrattive
+                al numeratore della soluzione con il segno $+$. La formula equivalente $x_+=\frac{2c}{-b-\sqrt{b^2-4ac}}$ non presenta questo problema.</p>
             <h3>Altri errori di arrotondamento</h3>
             <p>Non esistono solo le cancellazioni sottrattive. Una situazione diversa ma potenzialmente pericolosa è quella di errori di arrotondamento che si sommano in modo coerente. P.es. il caso di un ciclo in cui si vuole calcolare i valori di punti
-                equispaziati in un intervallo. Ci sono diversi modi per ottenere i punti della suddivisione dell'intervallo: volendo dividere \( [a,b] \) in \( N \) parti separate di \( h= (b-a)/N \) si può ottenere l'\(i\)-esimo elemento sia come <code> x_i = a + ih </code>                che come</p>
+                equispaziati in un intervallo. Ci sono diversi modi per ottenere i punti della suddivisione dell'intervallo: volendo dividere $[a,b]$ in $N$ parti separate di $h= (b-a)/N$ si può ottenere l'$i$-esimo elemento sia come <code> x_i = a + ih </code>                che come</p>
             <pre>x = a
 do i=1,N
     x = x +h
@@ -1178,83 +1178,83 @@ x= 2.134655437_rk
             <p>Nel risolvere numericamente un problema bisogna distinguere tra i parametri fisici e parametri numerici dell'algoritmo. I parametri numerici derivano tutti dal fatto che stiamo calcolando dei "fotogrammi successivi" del fenomeno fisico come
                 approssimazione del continuo evolvere del tempo. I parametri fisici sono le masse, le leggi di forza, ecc.</p>
             <h3>L'algoritmo di Eulero</h3>
-            <p>Si vuole cercare la soluzione a equazioni differenziali del tipo \( \ddot x =\frac {F(x(t),\dot x(t),t)} m \). Equazioni di questo tipo possono facilmente diventare troppo complesse per ottenere "analiticamente" (con strumenti matematici)
+            <p>Si vuole cercare la soluzione a equazioni differenziali del tipo $\ddot x =\frac {F(x(t),\dot x(t),t)} m$. Equazioni di questo tipo possono facilmente diventare troppo complesse per ottenere "analiticamente" (con strumenti matematici)
                 la soluzione esatta. In questi casi si può, fornendo le condizioni iniziali, calcolare in modo approssimato "punto per punto" la posizione tramite metodi cosiddetti numerici.</p>
             <p>Ad esempio, si può considerare il problema di Cauchy dell'oscillatore armonico:</p>
-            <p>\( \begin{cases}\ddot x = -\omega^2 x \\ x(0)=x_0\\ \dot x(0)=v_0 \end{cases} \)</p>
+            <p>$\begin{cases}\ddot x = -\omega^2 x \\ x(0)=x_0\\ \dot x(0)=v_0 \end{cases}$</p>
             <p>Si può studiare lo sviluppo di Taylor della soluzione per ottenere i valori della funzione incognita a tempi arbitrari:</p>
-            <p>\( \displaystyle&nbsp; x(t)=x(0)+\dot x(0)t+\frac{\ddot x(0)}{2}t^2+&nbsp;\frac{\dddot x(0)}{6}t^3 ...= x_0(1 - \omega^2\frac{t^2}{2} + \omega^4\frac{t^4}{4!} - \omega^6\frac{t^6}{6!} + \dots) + \frac{v_0}{\omega}(\omega t - \frac{\omega^3
-                t^3}{3!} + \frac{\omega^5 t^5}{5!}...) =x_0 cos( \omega t) +&nbsp;\frac{v_0}{\omega} sin( \omega t). \)</p>
-            <p>Se però ci accontentiamo di ottenere i valori ad un tempo sufficientemente piccolo \( \Delta t \), posso scrivere</p>
-            <p>\(\displaystyle&nbsp; x(\Delta t)=x(0)+\dot x(0)\Delta t+\frac{\ddot x(t=0)}{2}\Delta t^2+O(\Delta t^3) \)</p>
-            <p>\(\displaystyle&nbsp; v(\Delta t)=v(0)+\dot v(0)\Delta t+O(\Delta t^2) \)</p>
-            <p>Si può quindi ottenere un risultato approssimato non calcolando gli \( O \): se non si considerano errori di arrotondamento, tanto più piccolo sarà \( \Delta t \), tanto migliore l'approssimazione. Si prosegue poi calcolando</p>
-            <p>\(\displaystyle&nbsp; x(2\Delta t)= x(\Delta t)+v(\Delta t)\Delta t + \frac{\ddot x(x(\Delta t))}2\Delta t^2 \)</p>
-            <p>\(\displaystyle&nbsp; v(2\Delta t)=v(\Delta t)+\ddot x(\Delta t)\Delta t \)</p>
+            <p>$\displaystyle&nbsp; x(t)=x(0)+\dot x(0)t+\frac{\ddot x(0)}{2}t^2+&nbsp;\frac{\dddot x(0)}{6}t^3 ...= x_0(1 - \omega^2\frac{t^2}{2} + \omega^4\frac{t^4}{4!} - \omega^6\frac{t^6}{6!} + \dots) + \frac{v_0}{\omega}(\omega t - \frac{\omega^3
+                t^3}{3!} + \frac{\omega^5 t^5}{5!}...) =x_0 cos( \omega t) +&nbsp;\frac{v_0}{\omega} sin( \omega t).$</p>
+            <p>Se però ci accontentiamo di ottenere i valori ad un tempo sufficientemente piccolo $\Delta t$, posso scrivere</p>
+            <p>$\displaystyle&nbsp; x(\Delta t)=x(0)+\dot x(0)\Delta t+\frac{\ddot x(t=0)}{2}\Delta t^2+O(\Delta t^3)$</p>
+            <p>$\displaystyle&nbsp; v(\Delta t)=v(0)+\dot v(0)\Delta t+O(\Delta t^2)$</p>
+            <p>Si può quindi ottenere un risultato approssimato non calcolando gli $O$: se non si considerano errori di arrotondamento, tanto più piccolo sarà $\Delta t$, tanto migliore l'approssimazione. Si prosegue poi calcolando</p>
+            <p>$\displaystyle&nbsp; x(2\Delta t)= x(\Delta t)+v(\Delta t)\Delta t + \frac{\ddot x(x(\Delta t))}2\Delta t^2$</p>
+            <p>$\displaystyle&nbsp; v(2\Delta t)=v(\Delta t)+\ddot x(\Delta t)\Delta t$</p>
             <p>e così via. Per stimare l'errore si può usare la formula di Taylor per cui</p>
-            <p>\(\displaystyle&nbsp; x(\Delta t)=x_v(\Delta t)+\frac{\dot a(\tau)}6\Delta t^3 \)</p>
-            <p>\(\displaystyle&nbsp; v(\Delta t)=v_v(\Delta t)+\frac{\ddot a(\tau')}2\Delta t^2\)</p>
-            <p>con \( \tau,\tau'\in[0,\Delta t] \). Da qui si può calcolare l'errore fatto per \( N \) passi:</p>
-            <p>\( \displaystyle Pos_{err}(N passi)= \frac{\Delta t^3}6\sum_{i=1}^N\dot a(\tau_i)=\frac{N\Delta t^3}6\left(\frac 1 N\sum_{i=1}^N\dot a(\tau_i)\right) = T\frac{\Delta t^2}6\dot a(\tilde\tau) \)</p>
-            <p>\( \displaystyle Vel_{err}(N passi)= \frac{\Delta t^2}2\sum_{i=1}^N\ddot a(\tau_i)=\frac{N\Delta t^2}2\left(\frac 1 N\sum_{i=1}^N\ddot a(\tau_i)\right) = T\frac{\Delta t}2\ddot a(\tilde\tau) \)</p>
-            <p>La dipendenza scala quindi di una potenza rispetto a \(\Delta t\). A parità di intervallo di tempo, l'errore va a 0 per \(\Delta t \to0\). A questo punto si presentano però dei problemi pratici di implementazione, ma discutendo di algoritmi
+            <p>$\displaystyle&nbsp; x(\Delta t)=x_v(\Delta t)+\frac{\dot a(\tau)}6\Delta t^3$</p>
+            <p>$\displaystyle&nbsp; v(\Delta t)=v_v(\Delta t)+\frac{\ddot a(\tau')}2\Delta t^2$</p>
+            <p>con $\tau,\tau'\in[0,\Delta t]$. Da qui si può calcolare l'errore fatto per $N$ passi:</p>
+            <p>$\displaystyle Pos_{err}(N passi)= \frac{\Delta t^3}6\sum_{i=1}^N\dot a(\tau_i)=\frac{N\Delta t^3}6\left(\frac 1 N\sum_{i=1}^N\dot a(\tau_i)\right) = T\frac{\Delta t^2}6\dot a(\tilde\tau)$</p>
+            <p>$\displaystyle Vel_{err}(N passi)= \frac{\Delta t^2}2\sum_{i=1}^N\ddot a(\tau_i)=\frac{N\Delta t^2}2\left(\frac 1 N\sum_{i=1}^N\ddot a(\tau_i)\right) = T\frac{\Delta t}2\ddot a(\tilde\tau)$</p>
+            <p>La dipendenza scala quindi di una potenza rispetto a $\Delta t$. A parità di intervallo di tempo, l'errore va a 0 per $\Delta t \to0$. A questo punto si presentano però dei problemi pratici di implementazione, ma discutendo di algoritmi
                 terremo l'ipotesi che la nostra macchina non abbia limitazioni (possa avere una precisione arbitraria)</p>
             <h3>Come scegliere il giusto <span>Δ</span><span>t</span>?</h3>
-            <p>Bisogna assicurarsi di non ottenere immagini ridicole: ad esempio, simulare un moto armonico con un \(\Delta t\) superiore al periodo non può in nessun modo dare risultati soddisfacenti. A spanne, almeno 50 punti per periodo sono quasi decenti.
-                Meglio un centesimo del periodo. Se diminuendo \(\Delta t\) non si osservano cambiamenti significativi, allora abbiamo un buon valore.</p>
-            <p>Se la legge di forza è conservativa, possiamo verificare di avere un buon \(\Delta t\) calcolando l'energia meccanica istante per istante e verificando che resti costante. Non succederà mai, a causa degli errori, ma almeno deve restare conservata
-                allo stesso ordine&nbsp; in \(\Delta t\) dell'errore globale dell' algoritmo.</p>
+            <p>Bisogna assicurarsi di non ottenere immagini ridicole: ad esempio, simulare un moto armonico con un $\Delta t$ superiore al periodo non può in nessun modo dare risultati soddisfacenti. A spanne, almeno 50 punti per periodo sono quasi decenti.
+                Meglio un centesimo del periodo. Se diminuendo $\Delta t$ non si osservano cambiamenti significativi, allora abbiamo un buon valore.</p>
+            <p>Se la legge di forza è conservativa, possiamo verificare di avere un buon $\Delta t$ calcolando l'energia meccanica istante per istante e verificando che resti costante. Non succederà mai, a causa degli errori, ma almeno deve restare conservata
+                allo stesso ordine&nbsp; in $\Delta t$ dell'errore globale dell' algoritmo.</p>
             <h3>L'algoritmo di Verlet</h3>
             <p>Le leggi di conservazione derivano da simmetrie dei problemi che consideriamo. Se le forze dipendono solo dalla posizione e non dalla velocità vale la cosiddetta "simmetria per inversione temporale". Si può verificare la bontà del nostro algoritmo
                 invertendo il segno della velocità a un certo istante e verificando che ci porti alla posizione precedente. Non succederà mai neanche questo, ma almeno potrebbe differire di poco.</p>
-            <p>Usando la notazione \(\begin {cases} x(t)=:x_0 \\ \Delta t =: \Delta, \\ x(t+\Delta)=:x_t \end{cases}\) l'algoritmo di Eulero diventa</p>
-            <p>\(\begin{cases} x_t=x_0+v_0\Delta+\frac{a_0}2\Delta^2 \\ v_t=v_0+a_0\Delta\end{cases}\)</p>
+            <p>Usando la notazione $\begin {cases} x(t)=:x_0 \\ \Delta t =: \Delta, \\ x(t+\Delta)=:x_t \end{cases}$ l'algoritmo di Eulero diventa</p>
+            <p>$\begin{cases} x_t=x_0+v_0\Delta+\frac{a_0}2\Delta^2 \\ v_t=v_0+a_0\Delta\end{cases}$</p>
             <p>quindi, per tornare indietro,</p>
-            <p>\(\begin{cases} x_0'=x_t-v_t\Delta+\frac{a_t}2\Delta^2 \\ v_0'=-v_t+a_t\Delta\end{cases}\)</p>
+            <p>$\begin{cases} x_0'=x_t-v_t\Delta+\frac{a_t}2\Delta^2 \\ v_0'=-v_t+a_t\Delta\end{cases}$</p>
             <p>da cui</p>
-            <p>\(\begin{cases}x_0'=x_0+\frac{(a_t-a_0)}2\Delta^2 \\ v_0'=-v_0-\Delta(a_0-a_t)\end{cases}.\)</p>
-            <p>Si può compensare questo difetto tramite un termine \(c_0=\frac{a_t-a_0}2\) e ottenere il nuovo algoritmo</p>
-            <p>\(\begin{cases}x_t=x_0+v_0\Delta+\frac{a_0}2\Delta^2 \\ v_t=v_0+a_0\Delta + c_0\Delta=v_0+\frac{a_0+a_t}2\Delta\end{cases}\)</p>
-            <p>Questa modifica restituisce la simmetria temporale e, come si vede da un'analisi in serie di Taylor, ha il vantaggio che sia le \(x\) che le \( v\) hanno un errore locale del tipo \(O(\Delta^3)\) e globale&nbsp; \(O(\Delta^2)\), quindi anche
-                l'energia sarà approssimata meglio: all'ordine \(\Delta^2\).</p>
+            <p>$\begin{cases}x_0'=x_0+\frac{(a_t-a_0)}2\Delta^2 \\ v_0'=-v_0-\Delta(a_0-a_t)\end{cases}.$</p>
+            <p>Si può compensare questo difetto tramite un termine $c_0=\frac{a_t-a_0}2$ e ottenere il nuovo algoritmo</p>
+            <p>$\begin{cases}x_t=x_0+v_0\Delta+\frac{a_0}2\Delta^2 \\ v_t=v_0+a_0\Delta + c_0\Delta=v_0+\frac{a_0+a_t}2\Delta\end{cases}$</p>
+            <p>Questa modifica restituisce la simmetria temporale e, come si vede da un'analisi in serie di Taylor, ha il vantaggio che sia le $x$ che le $v$ hanno un errore locale del tipo $O(\Delta^3)$ e globale&nbsp; $O(\Delta^2)$, quindi anche
+                l'energia sarà approssimata meglio: all'ordine $\Delta^2$.</p>
             <p>Questo algoritmo è il prototipo di una classe di algoritmi, detti simplettici, che soddisfano a richieste di tipo geometrico. Così com'è non è applicabile in modo semplice con leggi che hanno dipendenze da velocità.</p>
             <h3>Algoritmo di Groot-Warren</h3>
-            <p>Una modifica dell'algoritmo di Verlet per leggi di forza che dipendono dalla velocità si può ottenere con la stessa formula per la posizione, introducendo due variabili intermedie \(\tilde v, \tilde a\):</p>
-            <p>\(\begin{cases}x_t=x_0+v_0\Delta+\frac{a_0}2\Delta^2 \\\tilde v=v_0+a_0\Delta \\\tilde a=a(x_t,\tilde v)\\v_t=v_0+\frac{(a_0+\tilde a)}2\Delta\\a_t=a(x_t,v_t)\end{cases}\)</p>
-            <p>Questo algoritmo valuta due volte le forze per ogni passo. Ci sono altri algoritmi che calcolano più volte le forze e hanno precisioni di ordine maggiore rispetto a \(\Delta\). Quale sia il più adatto dipende dalle limitazioni in termini di
+            <p>Una modifica dell'algoritmo di Verlet per leggi di forza che dipendono dalla velocità si può ottenere con la stessa formula per la posizione, introducendo due variabili intermedie $\tilde v, \tilde a$:</p>
+            <p>$\begin{cases}x_t=x_0+v_0\Delta+\frac{a_0}2\Delta^2 \\\tilde v=v_0+a_0\Delta \\\tilde a=a(x_t,\tilde v)\\v_t=v_0+\frac{(a_0+\tilde a)}2\Delta\\a_t=a(x_t,v_t)\end{cases}$</p>
+            <p>Questo algoritmo valuta due volte le forze per ogni passo. Ci sono altri algoritmi che calcolano più volte le forze e hanno precisioni di ordine maggiore rispetto a $\Delta$. Quale sia il più adatto dipende dalle limitazioni in termini di
                 tempo: se la valutazione della forza è il collo di bottiglia Groot-Warren è un ottimo compromesso. Se invece serve grande precisione e non ci sono problemi di tempo si possono preferire altri algoritmi.</p>
             <h3>L'implementazione</h3>
-            <p>Se lavoro in precisione di default e decido di prendere un \(\Delta t\) molto basso, rischio di avere errori di arrotondamento.</p>
+            <p>Se lavoro in precisione di default e decido di prendere un $\Delta t$ molto basso, rischio di avere errori di arrotondamento.</p>
             <h3>Calcolo di derivate</h3>
-            <p>La definizione matematica di derivata di una funzione \(f\) come \( f'(x)=\lim_{\Delta x\to 0}\frac{f(x+\Delta x)-f(x)}{\Delta x} \) non è ben applicabile algoritmicamente. Per cui anziché utilizzare il limite che non è uno ''strumento'' ben
-                definito algoritmicamente ci si concentra sulla definizione di rapporto incrementale, che dipende da x, ma anche da \(\Delta x\). Se non ci fossero errori di arrotondamento, si potrebbe avere un risultato tanto migliore quanto più piccolo
-                \(\Delta x\). Si può quantificare grazie alla formula di Taylor:</p>
-            <p>\(\displaystyle\frac{f(x+\Delta x)-f(x)}{\Delta x}=f'(x)+\frac{f''(\xi)\Delta x}2\) con \(\xi\in(x,x+\Delta x)\)</p>
+            <p>La definizione matematica di derivata di una funzione $f$ come $f'(x)=\lim_{\Delta x\to 0}\frac{f(x+\Delta x)-f(x)}{\Delta x}$ non è ben applicabile algoritmicamente. Per cui anziché utilizzare il limite che non è uno ''strumento'' ben
+                definito algoritmicamente ci si concentra sulla definizione di rapporto incrementale, che dipende da x, ma anche da $\Delta x$. Se non ci fossero errori di arrotondamento, si potrebbe avere un risultato tanto migliore quanto più piccolo
+                $\Delta x$. Si può quantificare grazie alla formula di Taylor:</p>
+            <p>$\displaystyle\frac{f(x+\Delta x)-f(x)}{\Delta x}=f'(x)+\frac{f''(\xi)\Delta x}2$ con $\xi\in(x,x+\Delta x)$</p>
             <p>Una formula migliore si può ottenere come</p>
-            <p>\(\displaystyle f(x+\Delta x)=f(x)+f'(x)\Delta x+f''(x)\frac{\Delta x^2}2+\frac{f'''(\xi')}6\Delta x^3\)</p>
-            <p>\(\displaystyle f(x-\Delta x)=f(x)-f'(x)\Delta x+f''(x)\frac{\Delta x^2}2-\frac{f'''(\xi'')}6\Delta x^3\)</p>
-            <p>\(\displaystyle f(x+\Delta x)-f(x-\Delta x)=2\Delta xf'(x)+\frac16[f'''(\xi')+f'''(\xi'')]\Delta x^3\)</p>
-            <p>\(\displaystyle\frac{f(x+\Delta x)-f(x-\Delta x)}{2\Delta x}=f'(x)+\frac16[\frac{f'''(\xi')+f'''(\xi'')}{2}]\Delta x^2=f'(x)+\frac16f'''(\bar\xi)\Delta x^2\)</p>
-            <p>Questa formula viene detta <strong>delle differenze simmetriche</strong> e al limite restituisce la derivata se la funzione è derivabile. Ha il vantaggio che il termine di correzione scende come il quadrato di \(\Delta x\), ma lavorando con
-                un numero finito di cifre significative tutte queste formule diventano disastrose con valori piccoli di \(\Delta x\). Come fare? Esistono dei valori intermedi tra quelli troppo grandi e quelli troppo piccoli?</p>
-            <p>Detto \(Df=\frac{f_2-f_1}{c\Delta x}\), il rapporto incrementale (calcolato con una delle formule), il suo valore calcolato dal computer sarà \(Df_c\) tale che</p>
-            <p>\(\displaystyle|Df_c-Df| \leq \left|-\varepsilon_{\Delta x}Df+\varepsilon_{f_2}\frac{f_2}{c\Delta x}-\varepsilon_{f_1}\frac{f_1}{c\Delta x}\right| \leq \varepsilon_M\left( |Df|+\left|\frac{f_2}{c\Delta x}\right|+\left|\frac{f_1}{c\Delta x}\right|
-                \right) \approx \varepsilon_M \left(|f'(x)|+2\left|\frac{f(x)}{c\Delta x}\right|\right)\)</p>
+            <p>$\displaystyle f(x+\Delta x)=f(x)+f'(x)\Delta x+f''(x)\frac{\Delta x^2}2+\frac{f'''(\xi')}6\Delta x^3$</p>
+            <p>$\displaystyle f(x-\Delta x)=f(x)-f'(x)\Delta x+f''(x)\frac{\Delta x^2}2-\frac{f'''(\xi'')}6\Delta x^3$</p>
+            <p>$\displaystyle f(x+\Delta x)-f(x-\Delta x)=2\Delta xf'(x)+\frac16[f'''(\xi')+f'''(\xi'')]\Delta x^3$</p>
+            <p>$\displaystyle\frac{f(x+\Delta x)-f(x-\Delta x)}{2\Delta x}=f'(x)+\frac16[\frac{f'''(\xi')+f'''(\xi'')}{2}]\Delta x^2=f'(x)+\frac16f'''(\bar\xi)\Delta x^2$</p>
+            <p>Questa formula viene detta <strong>delle differenze simmetriche</strong> e al limite restituisce la derivata se la funzione è derivabile. Ha il vantaggio che il termine di correzione scende come il quadrato di $\Delta x$, ma lavorando con
+                un numero finito di cifre significative tutte queste formule diventano disastrose con valori piccoli di $\Delta x$. Come fare? Esistono dei valori intermedi tra quelli troppo grandi e quelli troppo piccoli?</p>
+            <p>Detto $Df=\frac{f_2-f_1}{c\Delta x}$, il rapporto incrementale (calcolato con una delle formule), il suo valore calcolato dal computer sarà $Df_c$ tale che</p>
+            <p>$\displaystyle|Df_c-Df| \leq \left|-\varepsilon_{\Delta x}Df+\varepsilon_{f_2}\frac{f_2}{c\Delta x}-\varepsilon_{f_1}\frac{f_1}{c\Delta x}\right| \leq \varepsilon_M\left( |Df|+\left|\frac{f_2}{c\Delta x}\right|+\left|\frac{f_1}{c\Delta x}\right|
+                \right) \approx \varepsilon_M \left(|f'(x)|+2\left|\frac{f(x)}{c\Delta x}\right|\right)$</p>
             <p>&nbsp;</p>
             <p>Per le differenze asimmetriche avremo quindi un errore del tipo</p>
-            <p>\(\displaystyle Err(D_Af)=A\Delta x+\frac{B\varepsilon_M}{\Delta x}\)</p>
-            <p>Che ci aspettiamo abbia un punto di minimo per \(\Delta x\) dove \(\displaystyle A-\frac{B\varepsilon_M}{\Delta x^2}=0\), quindi \(\Delta x_{min}\propto\varepsilon_M^{1/2}\) e \(Err_{min}\propto \varepsilon_M^{1/2}\).</p>
+            <p>$\displaystyle Err(D_Af)=A\Delta x+\frac{B\varepsilon_M}{\Delta x}$</p>
+            <p>Che ci aspettiamo abbia un punto di minimo per $\Delta x$ dove $\displaystyle A-\frac{B\varepsilon_M}{\Delta x^2}=0$, quindi $\Delta x_{min}\propto\varepsilon_M^{1/2}$ e $Err_{min}\propto \varepsilon_M^{1/2}$.</p>
             <p>&nbsp;</p>
             <p>Per le differenze simmetriche avremo un errore del tipo</p>
-            <p>\(\displaystyle Err(D_Af)=A\Delta x^2+\frac{B\varepsilon_M}{\Delta x}\)</p>
-            <p>Che ci aspettiamo abbia un punto di minimo per \(\Delta x\) dove \(\displaystyle2A\Delta x-\frac{B\varepsilon_M}{\Delta x^2}=0\), quindi \(\Delta x_{min}\propto\varepsilon_M^{1/3}\) e \(Err_{min}\propto \varepsilon_M^{2/3}\).</p>
-            <p>Da un semplice calcolo numerico si vede che la formula per differenze simmetriche ha un valore ottimale di \(\Delta x\) di circa un ordine di grandezza maggiore della formula per differenze asimmetriche, che risulta in un errore minimo di
+            <p>$\displaystyle Err(D_Af)=A\Delta x^2+\frac{B\varepsilon_M}{\Delta x}$</p>
+            <p>Che ci aspettiamo abbia un punto di minimo per $\Delta x$ dove $\displaystyle2A\Delta x-\frac{B\varepsilon_M}{\Delta x^2}=0$, quindi $\Delta x_{min}\propto\varepsilon_M^{1/3}$ e $Err_{min}\propto \varepsilon_M^{2/3}$.</p>
+            <p>Da un semplice calcolo numerico si vede che la formula per differenze simmetriche ha un valore ottimale di $\Delta x$ di circa un ordine di grandezza maggiore della formula per differenze asimmetriche, che risulta in un errore minimo di
                 un ordine di grandezza inferiore.</p>
             <h3>Risoluzione di equazioni</h3>
-            <p>Una necessità frequente è quella di risolvere equazioni del tipo \( f(x)=0 \). In pochi casi particolari esistono formule risolutive esplicite, ma nella maggior parte dei casi la soluzione non si può esprimere in termini di funzioni elementari.
+            <p>Una necessità frequente è quella di risolvere equazioni del tipo $f(x)=0$. In pochi casi particolari esistono formule risolutive esplicite, ma nella maggior parte dei casi la soluzione non si può esprimere in termini di funzioni elementari.
                 A quel punto può essere utile trovare numericamente una soluzione approssimata. Come fare?</p>
             <h4>Il teorema degli zeri</h4>
-            <p>Alcuni teoremi di Analisi possono tornare utili: se sappiamo che \( f \) è continua, possiamo usare il teorema degli zeri: se la funzione ha segni opposti in due punti, ce ne sarà uno intermedio in cui varrà 0.</p>
+            <p>Alcuni teoremi di Analisi possono tornare utili: se sappiamo che $f$ è continua, possiamo usare il teorema degli zeri: se la funzione ha segni opposti in due punti, ce ne sarà uno intermedio in cui varrà 0.</p>
             <p>Un metodo algoritmico per implementare questo metodo e trovare il punto di zero potrebbe essere strutturato così:</p>
             <p>
             </p>
@@ -1274,79 +1274,79 @@ ripeti sempre:
     fa=fc
 </pre>
             <p>Questo in teoria potrebbe non essere un buon algoritmo: potrebbe non raggiungere mai la condizione di uscita. In realtà su un computer la distanza dalla soluzione diminuisce sempre di più fino a non cambiare più. Si può facilmente ovviare
-                a questo problema ponendo, invece della condizione in <code>(!)</code> \( f_c=0 \), una condizione del tipo \( |f_c|&lt;\varepsilon \). Il parametro \(\varepsilon\) non può però essere piccolo a piacere: non può essere più piccolo del
+                a questo problema ponendo, invece della condizione in <code>(!)</code> $f_c=0$, una condizione del tipo $|f_c|&lt;\varepsilon$. Il parametro $\varepsilon$ non può però essere piccolo a piacere: non può essere più piccolo del
                 <u>successivo dello 0</u>. Il vero problema è che i numeri sul computer, oltre a non essere densi, non sono neanche equispaziati. Quindi la precisione assoluta con cui si può chiedere la soluzione dipende dall'ordine di grandezza dei valori
-                della funzione nel punto, e con essa la precisione macchina da richiedere. Il problema si risolve fissando l'incertezza massima non sul valore della funzione ma sulla posizione dell'ascissa che annulla la funzione. Dopo \(n \) passi, l'intervallo
-                in cui si trova lo zero è ampio \( \frac{b-a}{2^n} \)</p>
+                della funzione nel punto, e con essa la precisione macchina da richiedere. Il problema si risolve fissando l'incertezza massima non sul valore della funzione ma sulla posizione dell'ascissa che annulla la funzione. Dopo $n$ passi, l'intervallo
+                in cui si trova lo zero è ampio $\frac{b-a}{2^n}$</p>
             <pre>ripeti 10000 volte
 se (|fc| &lt; epsilon .or. b-a &lt; delta .or. (b-a)/min(|a|,|b|) &lt; C * errore_macchina)
 ecc.
 </pre>
             <h4>Il metodo iterativo</h4>
-            <p>Notiamo che da \( f(x)=0 \) segue immediatamente \( x= x+f(x) \), per cui la successione definita per ricorrenza come \( x_{i+1}=x_i+f(x_i)=g(x_i) \), se ha limite, converge a un punto di zero di \(f\). Si converte così il problema in un problema
-                di punto fisso. Ad es. l'equazione \( x^2+3x-2=0 \) genera la sucessione \( x_{i+1} = x_i+x_i^2+3x_i-2 \)</p>
-            <p>Problema: quanti punti fissi ha la successione \(x_{i+1}=\sqrt{x_i} \)?</p>
-            <p>Teorema: Date le ipotesi che non ho scritto, se \( |g'(x)|&lt;1 \) la successione converge al punto fisso. Ad esempio se \( g(x)=\sqrt{x} \), il "bacino di attrazione" di 1 è tutto \( \mathbb{R}^+ \) meno lo 0.</p>
+            <p>Notiamo che da $f(x)=0$ segue immediatamente $x= x+f(x)$, per cui la successione definita per ricorrenza come $x_{i+1}=x_i+f(x_i)=g(x_i)$, se ha limite, converge a un punto di zero di $f$. Si converte così il problema in un problema
+                di punto fisso. Ad es. l'equazione $x^2+3x-2=0$ genera la sucessione $x_{i+1} = x_i+x_i^2+3x_i-2$</p>
+            <p>Problema: quanti punti fissi ha la successione $x_{i+1}=\sqrt{x_i}$?</p>
+            <p>Teorema: Date le ipotesi che non ho scritto, se $|g'(x)|&lt;1$ la successione converge al punto fisso. Ad esempio se $g(x)=\sqrt{x}$, il "bacino di attrazione" di 1 è tutto $\mathbb{R}^+$ meno lo 0.</p>
             <h4>Il metodo di Newton</h4>
             <p>Da un punto di partenza si può considerare la retta tangente al grafico della funzione e considerare il punto in cui si annulla. Su quel punto considero la retta tangente al grafico e dove si annulla. Itero questo procedimento finché non arrivo
                 su uno zero. Questo metodo funziona a patto di partire abbastanza vicini al punto di zero. </p>
-            <p>L'(n+1)-esimo punto della successione è ricavabile a partire dall'equazione della retta tangente valutata nel punto in cui si annulla \( (y=0)) \).</p>
-            <p>\( 0-f(x_n) = f'(x_n) (x_{n+1}-x_n) \)</p>
-            <p>Rimaneggiando l'equazione otteniamo l'espressione esplicita per \( x_{n+1} \)</p>
-            <p>\(x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)} \)</p>
+            <p>L'(n+1)-esimo punto della successione è ricavabile a partire dall'equazione della retta tangente valutata nel punto in cui si annulla $(y=0))$.</p>
+            <p>$0-f(x_n) = f'(x_n) (x_{n+1}-x_n)$</p>
+            <p>Rimaneggiando l'equazione otteniamo l'espressione esplicita per $x_{n+1}$</p>
+            <p>$x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}$</p>
             <p><b>Attenzione: </b>è molto importante utilizzare una derivata ottenuta analiticamente e non numericamente, anche i piccoli errori causali dovuti al calcolo numerico (per sua natura approssimativo) della derivata possono portare a significative
                 differenze nei risultati.</p>
             <h3>Interpolazione</h3>
             <p>L'interpolazione costituisce una tecnica utilizzata nella derivazione e integrazione approssimata di funzioni di cui si conosce un limitato numero di punti. Una situazione di questo tipo può verificarsi durante l'analisi di dati sperimentali,
                 dove è possibile che le misurazioni effettuate non siano sufficienti a garantire un intervallo di dati abbastanza elevato per definire la funzione cercata, se non tramite un'approssimazione.</p>
-            <p>Supponiamo quindi di avere una funzione \(g(x)\) detta "<i>interpolante</i>" che assume i valori \(y_i=g(x_i)\) all'interno dell'intervallo [a, b] a cui appartengono gli n+1 punti \(x_i\) con \(i=0,\dots,n\) detti "<i>nodi </i>dell'interpolazione".
-                Su tale intervallo si suppone essere fissato un numero n+1 di funzioni \(\sum_{j=0}^n \lambda_j \Phi_j(x)\) fra loro linearmente indipendenti e quindi tali che</p>
-            <p style="text-align:center;">\(\sum_{j=0}^n \lambda_j \Phi_j(x)=0\) se e solo se \(\lambda_j=0\) per \(j=0, \dots , n\)</p>
-            <p>Scopo dell'interpolazione è determinare una funzione \(f(x_i)=\sum_{j=0}^n \lambda_j \Phi_j(x)\) che assuma gli stessi valori \(y_i\) nei punti \(x_i\), ossia tale che \(f(x_i)=y_i\) con&nbsp; \(i=0, \dots , n\).</p>
+            <p>Supponiamo quindi di avere una funzione $g(x)$ detta "<i>interpolante</i>" che assume i valori $y_i=g(x_i)$ all'interno dell'intervallo [a, b] a cui appartengono gli n+1 punti $x_i$ con $i=0,\dots,n$ detti "<i>nodi </i>dell'interpolazione".
+                Su tale intervallo si suppone essere fissato un numero n+1 di funzioni $\sum_{j=0}^n \lambda_j \Phi_j(x)$ fra loro linearmente indipendenti e quindi tali che</p>
+            <p style="text-align:center;">$\sum_{j=0}^n \lambda_j \Phi_j(x)=0$ se e solo se $\lambda_j=0$ per $j=0, \dots , n$</p>
+            <p>Scopo dell'interpolazione è determinare una funzione $f(x_i)=\sum_{j=0}^n \lambda_j \Phi_j(x)$ che assuma gli stessi valori $y_i$ nei punti $x_i$, ossia tale che $f(x_i)=y_i$ con&nbsp; $i=0, \dots , n$.</p>
             <p><br></p>
             <h4>Interpolanti polinomiali</h4>
-            <p>Una possibile funzione interpolante può assumere la forma di un polinomio \(p_n(x)\) di grado \(n\) del tipo</p>
-            <p style="text-align:center;">\(p(x) = a_0x^n + a_1x^{n-1}+ \dots + a_{n-1}x+a_n+a_0\)</p>
-            <p style="text-align:left;">dove \(a_0 \neq 0\).</p>
-            <p>Si può dimostrare come dati n+1 punti \((x_i,y_i)\) con \(i=0, \dots, n\) tali che \(x_i&nbsp; \neq x_j\) per \(i\neq j\), esiste ed è unico il <i>polinomio di interpolazione </i>\(p(x)\) per cui vale</p>
-            <p style="text-align:center;">\(p_n(x_i)=y_i\) per ogni \(i=0, \dots , n\)</p>
-            <p style="text-align:left;">dove \(p_n(x_i)\) è il polinomio di grado \(n\) calcolato nel punto \(x_i\).</p>
+            <p>Una possibile funzione interpolante può assumere la forma di un polinomio $p_n(x)$ di grado $n$ del tipo</p>
+            <p style="text-align:center;">$p(x) = a_0x^n + a_1x^{n-1}+ \dots + a_{n-1}x+a_n+a_0$</p>
+            <p style="text-align:left;">dove $a_0 \neq 0$.</p>
+            <p>Si può dimostrare come dati n+1 punti $(x_i,y_i)$ con $i=0, \dots, n$ tali che $x_i&nbsp; \neq x_j$ per $i\neq j$, esiste ed è unico il <i>polinomio di interpolazione </i>$p(x)$ per cui vale</p>
+            <p style="text-align:center;">$p_n(x_i)=y_i$ per ogni $i=0, \dots , n$</p>
+            <p style="text-align:left;">dove $p_n(x_i)$ è il polinomio di grado $n$ calcolato nel punto $x_i$.</p>
             <p style="text-align:left;">Tale risultato garantisce quindi l'esistenza e l'unicità della soluzione calcolata per nodi distinti: ne segue che se due nodi forniscono la stessa soluzione allora devono necessariamente costituire un unico nodo.</p>
             <p style="text-align:left;"><br></p>
             <h4>Interpolanti di Lagrange</h4>
-            <p>Il polinomio della forma di Lagrange viene utilizzato per la determinazione del valore che il polinomio \(p(x)\) assume in un determinato punto \(x\). Introduciamo quindi l'<i>interpolante di Lagrange </i>\(L_j^n\), un interpolante a due indici
+            <p>Il polinomio della forma di Lagrange viene utilizzato per la determinazione del valore che il polinomio $p(x)$ assume in un determinato punto $x$. Introduciamo quindi l'<i>interpolante di Lagrange </i>$L_j^n$, un interpolante a due indici
                 definito come</p>
-            <p style="text-align:center;"><span style="font-size:14.44px;">\(L_j^n(x)=\prod_{i=0, i \neq j}^n \frac{x-x_i}{x_j-x_i}\)</span></p>
+            <p style="text-align:center;"><span style="font-size:14.44px;">$L_j^n(x)=\prod_{i=0, i \neq j}^n \frac{x-x_i}{x_j-x_i}$</span></p>
             <p style="text-align:left;">Ne segue che&nbsp;</p>
-            <p style="text-align:center;">\(L_j^n(x_i)=\begin{cases} 1 \quad \text{se} \quad i=j,\\ 0 \quad \text{se} \quad i\neq j \end{cases}\)</p>
-            <p style="text-align:left;">Il polinomio di grado al più \(n\)</p>
-            <p style="text-align:center;">\(p_n(x)= \sum_{j=0}^n y_j L_j^n(x)\)</p>
+            <p style="text-align:center;">$L_j^n(x_i)=\begin{cases} 1 \quad \text{se} \quad i=j,\\ 0 \quad \text{se} \quad i\neq j \end{cases}$</p>
+            <p style="text-align:left;">Il polinomio di grado al più $n$</p>
+            <p style="text-align:center;">$p_n(x)= \sum_{j=0}^n y_j L_j^n(x)$</p>
             <p style="text-align:left;">varrà quindi</p>
-            <p style="text-align:center;">\(p_n(x_i)= \sum_{j=0}^n y_j L_j^n(x_i)=y_i\)</p>
-            <p style="text-align:left;">con \(j=0, \dots, n\). Tale polinomio è detto <i>"polinomio di interpolazione di Lagrange".</i></p>
+            <p style="text-align:center;">$p_n(x_i)= \sum_{j=0}^n y_j L_j^n(x_i)=y_i$</p>
+            <p style="text-align:left;">con $j=0, \dots, n$. Tale polinomio è detto <i>"polinomio di interpolazione di Lagrange".</i></p>
             <p style="text-align:left;"><span></span></p>
             <h4 style="font-style:italic;"><br></h4>
             <h4 style="font-style:italic;"><br></h4>
             <h4>Interpolazione di punti equispaziati</h4>
-            <p style="text-align:left;"><span style="font-size:14.44px;">Siano \(x_i\) con \(i=0, \dots, n\) dei punti equidistanti di </span><i style="font-size:14.44px;">passo \(h\) </i><span style="font-size:14.44px;">e quindi tali che</span></p>
-            <p style="text-align:center;"><span style="font-size:14.44px;">\(x_i = x_0 + ih\)</span></p>
+            <p style="text-align:left;"><span style="font-size:14.44px;">Siano $x_i$ con $i=0, \dots, n$ dei punti equidistanti di </span><i style="font-size:14.44px;">passo $h$ </i><span style="font-size:14.44px;">e quindi tali che</span></p>
+            <p style="text-align:center;"><span style="font-size:14.44px;">$x_i = x_0 + ih$</span></p>
             <p style="text-align:left;"><span style="font-size:14.44px;">effettuando un cambio di variabile</span></p>
-            <p style="text-align:center;">\(x=x_0 +th\)</p>
+            <p style="text-align:center;">$x=x_0 +th$</p>
             <p style="text-align:left;">si ottiene</p>
-            <p style="text-align:center;"><span style="font-size:14.44px;text-align:left;">\(L_j^n(t)=\prod_{i=0, i \neq j}^n \frac{t-i}{j-i}\)</span><br></p>
+            <p style="text-align:center;"><span style="font-size:14.44px;text-align:left;">$L_j^n(t)=\prod_{i=0, i \neq j}^n \frac{t-i}{j-i}$</span><br></p>
             <p style="text-align:center;"><span style="font-size:14.44px;"><span><br></span></span>
             </p>
             <h4 style="text-align:left;"><span style="font-size:14.44px;"><span></span></span>
             </h4>
             <h4>Errore nell'interpolazione polinomiale</h4>
-            <p><span style="font-size:14.44px;">Assumendo \(p(x)\) come polinomio interpolante della funzione \(f(x)\) è possibile definire la <i>funzione errore</i>&nbsp;dell'interpolazione di \(f(x)\) con \(p(x)\) data da&nbsp;</span></p>
-            <p style="text-align:center;"><span style="font-size:14.44px;">\(r(x)=f(x)-p(x)\)</span></p>
-            <p style="text-align:left;"><span style="font-size:14.44px;">e che si annulla sui nodi \(x_i\).</span></p>
-            <p style="text-align:left;"><span style="font-size:14.44px;">Supponendo la \(f(x)\) derivabile n+1 volte sull'intervallo [a,b] con derivate continue, si ha</span></p>
-            <p style="text-align:center;"><span style="font-size:14.44px;">\(r(x)= (x-x_0) \dots (x-x_n) \frac{f^{n+1}(\xi_n)}{(n+1)!}\)</span></p>
-            <p><span style="font-size:14.44px;">Detto \(\pi_{n+1}=(x-x_0)\dots(x-x_n) \) il polinomio di grado n+1, otteniamo l'espressione</span></p>
-            <p style="text-align:center;"><span style="font-size:14.44px;">\(r(x)=&nbsp;\pi_{n+1} \frac{f^{n+1}(\xi_n)}{(n+1)!}\)<br></span></p>
-            <p><span style="font-size:14.44px;">E' possibile notare come l'errore d'interpolazione risulti essere molto maggiore negli estremi dell'intervallo della funzione rispetto alla parte centrale, dalla quale si allontana molto rapidamente: in particolare, la funzione cresce simmetricamente rispetto al punto medio dell'intervallo [0,n] per \(n\) dispari, mentre per \(n\) pari l'andamento è di tipo antisimmetrico, come evidenziato dalle seguenti rappresentazioni:<br></span></p>
+            <p><span style="font-size:14.44px;">Assumendo $p(x)$ come polinomio interpolante della funzione $f(x)$ è possibile definire la <i>funzione errore</i>&nbsp;dell'interpolazione di $f(x)$ con $p(x)$ data da&nbsp;</span></p>
+            <p style="text-align:center;"><span style="font-size:14.44px;">$r(x)=f(x)-p(x)$</span></p>
+            <p style="text-align:left;"><span style="font-size:14.44px;">e che si annulla sui nodi $x_i$.</span></p>
+            <p style="text-align:left;"><span style="font-size:14.44px;">Supponendo la $f(x)$ derivabile n+1 volte sull'intervallo [a,b] con derivate continue, si ha</span></p>
+            <p style="text-align:center;"><span style="font-size:14.44px;">$r(x)= (x-x_0) \dots (x-x_n) \frac{f^{n+1}(\xi_n)}{(n+1)!}$</span></p>
+            <p><span style="font-size:14.44px;">Detto $\pi_{n+1}=(x-x_0)\dots(x-x_n)$ il polinomio di grado n+1, otteniamo l'espressione</span></p>
+            <p style="text-align:center;"><span style="font-size:14.44px;">$r(x)=&nbsp;\pi_{n+1} \frac{f^{n+1}(\xi_n)}{(n+1)!}$<br></span></p>
+            <p><span style="font-size:14.44px;">E' possibile notare come l'errore d'interpolazione risulti essere molto maggiore negli estremi dell'intervallo della funzione rispetto alla parte centrale, dalla quale si allontana molto rapidamente: in particolare, la funzione cresce simmetricamente rispetto al punto medio dell'intervallo [0,n] per $n$ dispari, mentre per $n$ pari l'andamento è di tipo antisimmetrico, come evidenziato dalle seguenti rappresentazioni:<br></span></p>
             <p><span style="font-size:14.44px;"><img src="https://moodle2.units.it/draftfile.php/345818/user/draft/253454031/interpolazione1.png" alt="interpolazione1" width="1200" height="959" style="vertical-align:text-bottom;margin:0px .5em;" class="img-responsive"><br></span></p>
             <p><span style="font-size:14.44px;">&nbsp;<img src="https://moodle2.units.it/draftfile.php/345818/user/draft/253454031/interpolazione2.png" alt="interpolazione2" width="1200" height="1115" style="vertical-align:text-bottom;margin:0px .5em;" class="img-responsive"></span></p>
             <p>Anziché cercare di interpolare tutti i punti, risulta quindi più efficiente un'interpolazione polinomiale "a pezzi" che per ogni punto costruisca una cubica diversa: le diverse cubiche si raccordano e vanno così a determinare un andamento
@@ -1355,27 +1355,27 @@ ecc.
             <p>Per stimare l'integrale di una funzione si può calcolare l'integrale di un interpolante lineare</p>
 
             <p>Il metodo trapezoidale esteso</p>
-            <p>\( \displaystyle h=\frac{b-a}{N} \), \(I=h(\frac{f(x_0)}2+f(x_1)+\dots+f(x_{N-1})+\frac{f(x_N)}2)\)</p>
-            <p>Interpolante parabolico: \(I=\frac h3 (f(x_0)+4f(x_1)+2f(x_2)+4f(x_3)+\dots+4f(x_{N-1})+f(x_N)) \) con \( N \) pari, ovvero un numero di intervalli N pari e un numero di punti N+1 dispari. Questa è nota come formula di Cavalieri-Simpson estesa.</p>
-            <p>L'errore è sempre del tipo \( |r(x)|=|f(x)-p_N(x)|=\frac{|f^{(N-1)}(\xi_x)|}{(n+1)!}|\pi_{N+1}(x)|=\frac{|f^{(N-1)}(\xi_x)|}{(n+1)!}t(t-1)\dots(t-n)h^{N+1}.\)</p>
-            <p>Quindi per l'interpolante lineare \( \int_{x_0}^{x_1}f(x)dx=\int_{x_0}^{x_1}p_1(x)dx+\int_{x_0}^{x_1}\frac{f''(\xi_x)}2\pi_{1+1}(x)dx\).</p>
-            <p>\(Err_T=\int_{x_0}^{x_1}\frac{f''(\xi_x)}2\pi_{1+1}(x)dx\approx\frac{h^3}{2}f''(\bar\xi)\int_{0}^{1}t(t-1)dt=\mathcal{C}f''(\bar\xi)h^3.\)</p>
+            <p>$\displaystyle h=\frac{b-a}{N}$, $I=h(\frac{f(x_0)}2+f(x_1)+\dots+f(x_{N-1})+\frac{f(x_N)}2)$</p>
+            <p>Interpolante parabolico: $I=\frac h3 (f(x_0)+4f(x_1)+2f(x_2)+4f(x_3)+\dots+4f(x_{N-1})+f(x_N))$ con $N$ pari, ovvero un numero di intervalli N pari e un numero di punti N+1 dispari. Questa è nota come formula di Cavalieri-Simpson estesa.</p>
+            <p>L'errore è sempre del tipo $|r(x)|=|f(x)-p_N(x)|=\frac{|f^{(N-1)}(\xi_x)|}{(n+1)!}|\pi_{N+1}(x)|=\frac{|f^{(N-1)}(\xi_x)|}{(n+1)!}t(t-1)\dots(t-n)h^{N+1}.$</p>
+            <p>Quindi per l'interpolante lineare $\int_{x_0}^{x_1}f(x)dx=\int_{x_0}^{x_1}p_1(x)dx+\int_{x_0}^{x_1}\frac{f''(\xi_x)}2\pi_{1+1}(x)dx$.</p>
+            <p>$Err_T=\int_{x_0}^{x_1}\frac{f''(\xi_x)}2\pi_{1+1}(x)dx\approx\frac{h^3}{2}f''(\bar\xi)\int_{0}^{1}t(t-1)dt=\mathcal{C}f''(\bar\xi)h^3.$</p>
             <p>Per l'interpolante parabolico l'errore è del tipo:</p>
-            <p>\( \int_{x_0}^{x_2}\frac{f'''(\xi_x')}{3!}\pi_3(x)dx.\)</p>
-            <p>\( f'''(\xi'_x)=f'''(x_0)+f^{iv}(x_0)(x-x_0)+\dots\)</p>
-            <p>Ma \(\pi_3(x)\)</p>
+            <p>$\int_{x_0}^{x_2}\frac{f'''(\xi_x')}{3!}\pi_3(x)dx.$</p>
+            <p>$f'''(\xi'_x)=f'''(x_0)+f^{iv}(x_0)(x-x_0)+\dots$</p>
+            <p>Ma $\pi_3(x)$</p>
             <p>Riassumendo:</p>
-            <p>\(Err_{T}\sim C f''(\xi)h^3\)</p>
-            <p>\(Err_{CS}\sim C' f^{iv}(\xi')h^5\)</p>
+            <p>$Err_{T}\sim C f''(\xi)h^3$</p>
+            <p>$Err_{CS}\sim C' f^{iv}(\xi')h^5$</p>
             <p>L'errore totale sarà:</p>
-            <p>\(Er_{TR(E)}\sim NCh^3\frac1N\sum f''(\xi_i)\sim\widetilde Cf''(\bar\xi)\frac1{N^2}\)</p>
+            <p>$Er_{TR(E)}\sim NCh^3\frac1N\sum f''(\xi_i)\sim\widetilde Cf''(\bar\xi)\frac1{N^2}$</p>
             <p></p>
-            <p>\(Er_{CS(E)}\sim NC'h^5\frac1N\sum f^{iv}(\xi'_i)\sim\widetilde C'f''(\bar\xi)\frac1{N^4}\)</p>
+            <p>$Er_{CS(E)}\sim NC'h^5\frac1N\sum f^{iv}(\xi'_i)\sim\widetilde C'f''(\bar\xi)\frac1{N^4}$</p>
             <p>In realtà con troppi punti l'errore di arrotondamento può influire negativamente:</p>
-            <p>\(\sum f_i^cw_i^c=\sum f_i^v(1+\varepsilon_{f_i})w_i^v(1+\varepsilon_{w_i})\approx\sum f_i^vw_i^v+\sum f_iw_i(\varepsilon_{f_i}+\varepsilon_{w_i})\)</p>
-            <p>\(Err_r\approx A\sqrt{N}\varepsilon_M\)</p>
-            <p>Notare che se si modifica il valore su un punto della funzione, nella teoria dell'integrazione l'integrale dovrebbe restare invariato, ma in pratica c'è un peso proporzionale ad \(h\).</p>
-            <p>Esempio: \(\int_0^1 \frac{\cos x}{\sqrt{x}}dx=\int_0^1 \frac{\cos x-1}{\sqrt{x}}+\int_0^1 \frac{1}{\sqrt{x}}\). In questo modo si evita di lavorare con funzioni che divergono nell'origine: \(&nbsp;\cos x-1 \) va come \(x^2\) intorno all'origine.</p>
+            <p>$\sum f_i^cw_i^c=\sum f_i^v(1+\varepsilon_{f_i})w_i^v(1+\varepsilon_{w_i})\approx\sum f_i^vw_i^v+\sum f_iw_i(\varepsilon_{f_i}+\varepsilon_{w_i})$</p>
+            <p>$Err_r\approx A\sqrt{N}\varepsilon_M$</p>
+            <p>Notare che se si modifica il valore su un punto della funzione, nella teoria dell'integrazione l'integrale dovrebbe restare invariato, ma in pratica c'è un peso proporzionale ad $h$.</p>
+            <p>Esempio: $\int_0^1 \frac{\cos x}{\sqrt{x}}dx=\int_0^1 \frac{\cos x-1}{\sqrt{x}}+\int_0^1 \frac{1}{\sqrt{x}}$. In questo modo si evita di lavorare con funzioni che divergono nell'origine: $&nbsp;\cos x-1$ va come $x^2$ intorno all'origine.</p>
             <h2>Gestione di Input e Output (I/O)</h2>
             <p>Nonostante abbiamo già visto che è possibile manipolare l'input e l'output attraverso i costrutti <b>stdin</b> e <b>stdout</b>, Fortran mette a disposizione due funzioni&nbsp;<code>open</code>&nbsp;e&nbsp;<code>close</code>, che permettono
                 di controllare meglio e più nello specifico queste sorgenti.<br></p>
@@ -1479,8 +1479,8 @@ end program main
             </ol>
             <p></p>
             <h4>Logaritmi in base arbitraria</h4>
-            <p>Fortran supporta di default solo le istruzioni <code>log(x)</code> e <code>log10(x)</code> che corrispondono rispettivamente a&nbsp;\( ln(x) \)&nbsp;e a \( log_{10}(x) \). Se si vuole utilizzare un logaritmo in base \( n \) occorre utilizzare
-                un cambiamento di base: \( log_{n}(x)=\frac{log_{10}(x)}{log_{10}(n)} \)</p>
+            <p>Fortran supporta di default solo le istruzioni <code>log(x)</code> e <code>log10(x)</code> che corrispondono rispettivamente a&nbsp;$ln(x)$&nbsp;e a $log_{10}(x)$. Se si vuole utilizzare un logaritmo in base $n$ occorre utilizzare
+                un cambiamento di base: $log_{n}(x)=\frac{log_{10}(x)}{log_{10}(n)}$</p>
             <h4>Pinguini sul terminale</h4>
             <p>Non sarebbe un easter egg degno di questo nome se ti dicessi dove trovarlo, ricorda che la pazienza è la virtù dei forti.</p>
             <h2>Link utili</h2>
